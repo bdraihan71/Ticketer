@@ -16,6 +16,10 @@
 ```sh
 composer install
 ```
+- Install NPM Dependencies
+```sh
+npm install
+```
 - Create a copy of your .env file
 - Generate an app encryption key
 ```sh
@@ -38,12 +42,12 @@ php artisan db:seed
 ```sh
 php artisan serve
 ```
-- Using PHP recursive function for creating a menu
+- Home Page
 ```sh
 http://127.0.0.1:8000
 ```
 
-- Using Laravel eloquent relationships for creating a treeview
+- Booking movie
 ```sh
-http://127.0.0.1:8000/item
+http://127.0.0.1:8000/movie/{id}
 ```
